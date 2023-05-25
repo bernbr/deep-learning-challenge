@@ -6,15 +6,17 @@ Results: Using bulleted lists and images to support your answers, address the fo
 
 **What variable(s) are the target(s) for your model?**
 
-    - IS_SUCCESSFUL is the y-variable for this data, known as the target. 
+- IS_SUCCESSFUL is the y-variable for this data, known as the target. 
 
 **What variable(s) are the features for your model?**
-    - X Variables = APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT
+    
+- X Variables = APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT
 
 ![](https://github.com/bernbr/deep-learning-challenge/blob/83cb7d4c8b8097b251b816d40f2918a70a6bffff/Images/X%20y%20Variables.jpg?raw=true)
 
 **What variable(s) should be removed from the input data because they are neither targets nor features?**
-    - EIN and Name should be removed from the data. They are not the target and they are not a feature of this dataset, and therefore is not relevent in this nueral network model. 
+    
+- EIN and Name should be removed from the data. They are not the target and they are not a feature of this dataset, and therefore is not relevent in this nueral network model. 
 
 ![](https://github.com/bernbr/deep-learning-challenge/blob/83cb7d4c8b8097b251b816d40f2918a70a6bffff/Images/Drop%20Columns.jpg?raw=true)
 
