@@ -1,8 +1,10 @@
-Overview of the analysis: Explain the purpose of this analysis.
+# **Overview of the analysis:** 
 
-Results: Using bulleted lists and images to support your answers, address the following questions:
+The purpose of this analysis is to determine whether or not a loan is good or bad based on previous loans features. 
 
-## Data Preprocessing
+# **Results:** 
+
+### Data Preprocessing
 
 **What variable(s) are the target(s) for your model?**
 
@@ -20,7 +22,7 @@ Results: Using bulleted lists and images to support your answers, address the fo
 
 ![](https://github.com/bernbr/deep-learning-challenge/blob/83cb7d4c8b8097b251b816d40f2918a70a6bffff/Images/Drop%20Columns.jpg?raw=true)
 
-## Compiling, Training, and Evaluating the Model
+### Compiling, Training, and Evaluating the Model
 
 **How many neurons, layers, and activation functions did you select for your neural network model, and why?**
 
@@ -64,13 +66,22 @@ Optimization Attempt 3:
 **Evaluation**
 ![](https://github.com/bernbr/deep-learning-challenge/blob/83cb7d4c8b8097b251b816d40f2918a70a6bffff/Images/Model%203%20Evaluation.jpg?raw=true)
 
-
-
-
-
 **Were you able to achieve the target model performance?**
-    - No, I was not able to acheive a target model performance. When I took additional columns out of the dataset it caused the accuracy to lower. When I kept the columns the same as the original model, but added hidden layers and neurons it increased slightly, but not by much. Only a percent or two. 
+
+- No, I was not able to acheive a target model performance. When I took additional columns out of the dataset it caused the accuracy to lower, not included in the 3 optimization attempts. I decided to leave them the columns as they were in the instructions, for the final optimization attempts. When additional columns were taken out, the data dropped to the low 60s. 
+
+- With the final optimization models, I was able to get close to .73. Which was slightly higher, but not by much. With more time and resources I think I could have found a model that fit with activations of tanh and sigmoids. However, with many different attempts, both shown and not shown, I was not able to get over .73 for accuracy.
 
 **What steps did you take in your attempts to increase model performance?**
 
-Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+- Some steps I attempted were removing additional columns. Some additional columns I attempted to remove in my preprocessing, which are not documented, were affiliation, classification, and organization. Removal of some or all of those resulted in significatly lower accuracy scores. 
+
+- Next, I wanted to try various activation codes and units. In the starter code it started with relu activation and a little less than double the input for the units. 
+
+- I wanted to see what various combinations to see what various activations, units, and hidden nodes did to the data. With the outputs that came out of the models, I determined that relu was probably a likely contender, seeing as the accuracy was the highest with relu. 
+
+# **Summary:** 
+
+- With the features provided the data models I worked through could only get to .74 accuracy. I think use of a keras-tuner would be helpful in this scenario to determine if this tool can get a higher accuracy, or is it only three-fourths effective. 
+
+- I would recommend trying to a support vector machine classifier. A SVM classifer will help find the hyperplane between the two groups of data. This would hopefully help determine classification of future data points by determining if the output of a linear function is 1 or -1, and then put the data point in the corresponding class. In this case it would classify the data point as a high risk loan or a good loan. 
