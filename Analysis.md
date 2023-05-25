@@ -10,12 +10,12 @@ Results: Using bulleted lists and images to support your answers, address the fo
 **What variable(s) are the features for your model?**
     - X Variables = APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT
 
-![]("Images/X y Variables.jpg")
+![](https://github.com/bernbr/deep-learning-challenge/blob/83cb7d4c8b8097b251b816d40f2918a70a6bffff/Images/X%20y%20Variables.jpg?raw=true)
 
 **What variable(s) should be removed from the input data because they are neither targets nor features?**
     - EIN and Name should be removed from the data. They are not the target and they are not a feature of this dataset, and therefore is not relevent in this nueral network model. 
 
-![]("Images/Drop Columns.jpg")
+![](https://github.com/bernbr/deep-learning-challenge/blob/83cb7d4c8b8097b251b816d40f2918a70a6bffff/Images/Drop%20Columns.jpg?raw=true)
 
 ## Compiling, Training, and Evaluating the Model
 
@@ -23,44 +23,43 @@ Results: Using bulleted lists and images to support your answers, address the fo
 
 Optimization Attempt 1:
 **Model 1:** 
-![]("Images/nn1 model.jpg")
+![](https://github.com/bernbr/deep-learning-challenge/blob/83cb7d4c8b8097b251b816d40f2918a70a6bffff/Images/nn1%20model.jpg?raw=true)
 
 **Structure**
-![]("Images/Model 1 Structure.jpg")
+![](https://github.com/bernbr/deep-learning-challenge/blob/83cb7d4c8b8097b251b816d40f2918a70a6bffff/Images/Model%201%20Structure.jpg?raw=true)
 
 **Training**
-![]("Images/Model 1 Training .jpg")
+![](https://github.com/bernbr/deep-learning-challenge/blob/83cb7d4c8b8097b251b816d40f2918a70a6bffff/Images/Model%201%20Training%20.jpg?raw=true)
 
 **Evaluation**
-![](https://github.com/bernbr/deep-learning-challenge/blob/034ce3bfb4141212846428350a8314a702cba176/Images/Model%201%20Evaluation.jpg?raw=true)
-
+![](https://github.com/bernbr/deep-learning-challenge/blob/83cb7d4c8b8097b251b816d40f2918a70a6bffff/Images/Model%201%20Evaluation.jpg?raw=true)
 
 Optimization Attempt 2:
 **Model 2:** 
-![]("Images/nn2 model.jpg")
+![](https://github.com/bernbr/deep-learning-challenge/blob/83cb7d4c8b8097b251b816d40f2918a70a6bffff/Images/nn2%20model.jpg?raw=true)
 
 **Structure**
-![]("Images/Model 2 Structure.jpg")
+![](https://github.com/bernbr/deep-learning-challenge/blob/83cb7d4c8b8097b251b816d40f2918a70a6bffff/Images/Model%202%20Structure.jpg?raw=true)
 
 **Training**
-![]("Images/Model 2 Training.jpg")
+![](https://github.com/bernbr/deep-learning-challenge/blob/83cb7d4c8b8097b251b816d40f2918a70a6bffff/Images/Model%202%20Training.jpg?raw=true)
 
 **Evaluation**
-![]("Images/Model 2 Evaluation.jpg")
+![](https://github.com/bernbr/deep-learning-challenge/blob/83cb7d4c8b8097b251b816d40f2918a70a6bffff/Images/Model%202%20Evaluation.jpg?raw=true)
 
 
 Optimization Attempt 3:
 **Model 3:** 
-![]("Images/nn3 model.jpg")
+![](https://github.com/bernbr/deep-learning-challenge/blob/83cb7d4c8b8097b251b816d40f2918a70a6bffff/Images/nn3%20model.jpg?raw=true)
 
 **Structure**
-![]("Images/Model 3 Structure.jpg")
+![](https://github.com/bernbr/deep-learning-challenge/blob/83cb7d4c8b8097b251b816d40f2918a70a6bffff/Images/Model%203%20Structure.jpg?raw=true)
 
 **Training**
-![]("Images/Model 3 Training.jpg")
+![](https://github.com/bernbr/deep-learning-challenge/blob/83cb7d4c8b8097b251b816d40f2918a70a6bffff/Images/Model%203%20Training.jpg?raw=true)
 
 **Evaluation**
-![]("Images/Model 3 Evaluation.jpg")
+![](https://github.com/bernbr/deep-learning-challenge/blob/83cb7d4c8b8097b251b816d40f2918a70a6bffff/Images/Model%203%20Evaluation.jpg?raw=true)
 
 
 
