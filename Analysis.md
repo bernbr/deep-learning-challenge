@@ -5,6 +5,7 @@ Results: Using bulleted lists and images to support your answers, address the fo
 ## Data Preprocessing
 
 **What variable(s) are the target(s) for your model?**
+
     - IS_SUCCESSFUL is the y-variable for this data, known as the target. 
 
 **What variable(s) are the features for your model?**
