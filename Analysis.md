@@ -32,7 +32,7 @@ Optimization Attempt 1:
 ![]("Images/Model 1 Training .jpg")
 
 **Evaluation**
-![][https://github.com/bernbr/deep-learning-challenge/blob/034ce3bfb4141212846428350a8314a702cba176/Images/Model%201%20Evaluation.jpg?raw=true]
+![](https://github.com/bernbr/deep-learning-challenge/blob/034ce3bfb4141212846428350a8314a702cba176/Images/Model%201%20Evaluation.jpg?raw=true)
 
 
 Optimization Attempt 2:
